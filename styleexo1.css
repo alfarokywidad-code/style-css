@@ -1,0 +1,20 @@
+.titre{
+    color: red;
+}
+h2{
+    color: blue;
+}
+.paragrand{
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: red;
+}
+.jours{
+   text-decoration: underline; 
+}
+ol{ 
+    font-style: italic;
+}
+ul{
+    font-style: oblique;
+}

@@ -1,0 +1,50 @@
+.sec1{
+    background-color: beige;
+    display: flex;
+}
+.box1{
+    background-color: orange;
+    font-size: 30px;
+    margin: 10px;
+    padding: 30px;
+    width: 1500px;
+    text-align: center;
+}
+.sec2{
+    background-color: beige;
+}
+.box2{
+    display: flex;
+}
+.box2 div{
+    background-color: orange;
+    font-size: 30px;
+    margin: 10px;
+    padding: 30px;
+    width: 800px;
+    text-align: center;
+}
+.box3{
+    background-color: beige;
+    display: flex;
+}
+.box3 div{
+ background-color: orange;
+    font-size: 30px;
+    margin: 10px;
+    padding: 30px;
+    width: 800px;
+    text-align: center;   
+}
+.box4{
+    background-color: beige;
+    display: flex;
+}
+.box4 div{
+    background-color: orange;
+    font-size: 30px;
+    margin: 10px;
+    padding: 30px;
+    width: 600px;
+    text-align: center;
+}
