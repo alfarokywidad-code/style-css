@@ -1,0 +1,438 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: beige;
+    padding: 100px;
+}
+
+/* !this is header */
+.first {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.search {
+    border-radius: 30px;
+    height: 40px;
+    margin-left: 100px;
+    background-color: rgb(217, 214, 214);
+    border: none;
+}
+
+.photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+/* !this is main */
+main {
+    background-color: white;
+    display: flex;
+    border-radius: 0px 0px 20px 20px;
+    padding-bottom: 35px;
+}
+
+/* !this is first section */
+.sec1 {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+/* todothis is aside */
+.div1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+.div1 a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 35px;
+}
+
+.ad {
+    display: flex;
+    flex-direction: column;
+    width: 770px;
+}
+
+.ad h1 {
+    padding-bottom: 20px;
+}
+
+.nmbr {
+    color: rgb(7, 132, 57);
+}
+
+.lein {
+    color: orange;
+}
+
+.all {
+    padding-right: 5px;
+}
+
+/* !section2 */
+.sec2 {
+    border: 1px solid rgb(200, 197, 197);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.display {
+    display: flex;
+}
+
+.link2 {
+    color: orange;
+}
+
+.nmb {
+    background-color: rgb(200, 198, 198);
+    border-radius: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(182, 180, 180);
+    padding-bottom: 15px;
+}
+
+/* ?first div */
+.spotify {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(154, 152, 152);
+    padding-bottom: 15px;
+}
+
+.spotify2 {
+    display: flex;
+    gap: 25px;
+}
+
+.time {
+    display: flex;
+    gap: 10px;
+
+}
+
+.checkbox {
+    background-color: rgb(194, 189, 189);
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: 3px;
+
+}
+
+.space {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* ?second div */
+.girl {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(189, 186, 186);
+    padding-bottom: 15px;
+}
+
+.girl2 {
+    display: flex;
+    gap: 25px;
+}
+
+.time2 {
+    display: flex;
+    gap: 10px;
+}
+
+.space2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* ?three div */
+.starbucks {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(176, 172, 172);
+    padding-bottom: 15px;
+}
+
+.starbucks2 {
+    display: flex;
+    gap: 25px;
+}
+
+.space3 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.time3 {
+    display: flex;
+    gap: 10px;
+}
+
+/* ?four div */
+.shell {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(182, 180, 180);
+    padding-bottom: 15px;
+}
+
+.shell2 {
+    display: flex;
+    gap: 25px;
+}
+
+.space4 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.time4 {
+    display: flex;
+    gap: 10px;
+}
+
+/* *another div */
+.date2 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(203, 196, 196);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* ?five div */
+.boy {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(156, 154, 154);
+    padding-bottom: 15px;
+}
+
+.boy2 {
+    display: flex;
+    gap: 25px;
+}
+
+.space5 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.time5 {
+    display: flex;
+    gap: 10px;
+}
+
+/* ?six div */
+.whole {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(182, 181, 181);
+    padding-bottom: 15px;
+}
+
+.whole2 {
+    display: flex;
+    gap: 25px;
+}
+
+.space6 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.time6 {
+    display: flex;
+    gap: 10px;
+}
+
+/* ?svene div */
+.ams {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(196, 193, 193);
+    padding-bottom: 15px;
+}
+
+.ams2 {
+    display: flex;
+    gap: 25px;
+}
+
+.space7 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.time7 {
+    display: flex;
+    gap: 10px;
+}
+
+/* ?this is link */
+.link3 {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.link3 a {
+    color: orange;
+}
+
+/* !section3 */
+.sec3 {
+    border: 1px solid rgb(205, 202, 202);
+    padding: 20px 30px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.center3 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(191, 188, 188);
+}
+
+.color a {
+    color: orange;
+}
+
+.display2 {
+    display: flex;
+}
+
+.nmbr3 {
+    background-color: rgb(187, 186, 186);
+    border-radius: 10px;
+    width: 20px;
+    text-align: center;
+}
+
+.netflix {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(198, 195, 195);
+    padding-bottom: 15px;
+}
+
+.netflix2 {
+    display: flex;
+    gap: 25px;
+}
+
+.space8 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.time8 {
+    display: flex;
+    gap: 10px;
+}
+
+.music {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(198, 195, 195);
+    padding-bottom: 15px;
+}
+
+.music2 {
+    display: flex;
+    gap: 25px;
+}
+
+.space9 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.time9 {
+    display: flex;
+    gap: 10px;
+}
+.amazon{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(186, 184, 184);
+    padding-bottom: 15px;
+}
+.amazon2{
+    display: flex;
+    gap: 25px;
+}
+.space10{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.time10{
+   display: flex;
+    gap: 10px; 
+}
+.linkfinal{
+ text-align: center;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.linkfinal a{
+    color: orange;
+}
