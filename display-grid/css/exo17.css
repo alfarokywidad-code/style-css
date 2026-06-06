@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(234, 231, 231);
+}
+
+.fixed {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+
+}
+
+.sec1 {
+
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(38, 37, 37, 1) 47%, rgb(103, 102, 102) 98%);
+    /* background-color: rgb(33, 33, 33); */
+    padding-bottom: 200px;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    line-height: 70px;
+}
+
+.sec2 {
+    padding: 50px 0px 70px 60px;
+
+}
+
+.relative-box {
+    background-color: rgb(13, 118, 231);
+    width: 10%;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 40px 10px 40px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.sec3 {
+    padding: 80px 0px 80px 60px;
+    line-height: 2.8;
+}
+
+.parent-relative {
+    background-color: yellow;
+    padding: 10px 0px 110px 10px;
+    margin-right: 80px;
+    position: relative;
+}
+
+.absolute {
+    background-color: rgb(243, 98, 7);
+    width: 7%;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    right: 50%;
+
+}
+
+.sec4 {
+    padding: 50px 0px 100px 60px;
+    line-height: 2.6;
+}
+
+.sticky-title {
+    position: sticky;
+    background-color: green;
+    color: white;
+    top: 85px;
+    /* z-index: 2000; */
+    margin-bottom: 50px;
+    margin-right: 80px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.text {
+    background-color: white;
+    padding: 22px;
+    margin-right: 80px;
+
+}
+
+.boto {
+    position: relative;
+    padding-bottom: 80px;
+}
+
+button {
+    /* position: absolute; */
+    right: 20px;
+    background-color: black;
+    border-radius: 40px;
+    padding: 7px;
+    width: 55px;
+    color: white;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+   
+
+
+}

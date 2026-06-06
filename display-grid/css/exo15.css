@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(214, 213, 213);
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.navigation {
+    word-spacing: 8px;
+    align-items: center;
+    /* padding-left: 400px; */
+}
+
+.navigation a {
+    text-decoration: none;
+    /* padding-top: 10px; */
+    font-size: 17px;
+    color: white;
+
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 10%;
+    padding-right: 8%;
+    gap: 40px;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.cards1 {
+    background-color: white;
+    padding: 8% 0% 8% 3%;
+    border-radius: 10px;
+}
+
+.cards2 {
+    background-color: white;
+    padding: 8% 0% 8% 3%;
+    border-radius: 10px;
+}
+
+.cards3 {
+    background-color: white;
+    padding: 8% 0% 8% 3%;
+    border-radius: 10px;
+}
+
+.cards4 {
+    background-color: white;
+    padding: 8% 0% 8% 3%;
+    border-radius: 10px;
+}
+
+.cards5 {
+    background-color: white;
+    padding: 8% 0% 8% 3%;
+    border-radius: 10px;
+}
+
+.cards6 {
+    background-color: white;
+    padding: 8% 0% 8% 3%;
+    border-radius: 10px;
+}
+
+/* !second section */
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 10%;
+    padding-right: 8%;
+    gap: 20px;
+
+}
+
+.boxes img {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+
+
+}
+
+.box1 {
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.box2 {
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box3 {
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box4 {
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box5 {
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box6 {
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box7 {
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.box8 {
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.text {
+    padding: 10px 0px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text button {
+    background: black;
+    color: aliceblue;
+    border: none;
+    padding: 5px 0px;
+    width: 60px;
+
+}
+
+/* !three section */
+.section3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 5rem;
+    gap: 17px;
+    padding-left: 10%;
+    padding-right: 8%;
+    /* padding-left: 200px; */
+    padding-bottom: 5%;
+    /* padding-right: 180px; */
+}
+
+.one {
+    background-color: white;
+    padding: 20px 0px 20px 20px;
+    border-radius: 10px;
+
+}
+
+.two {
+    background: white;
+    border-radius: 10px;
+    padding: 20px 0px 20px 20px;
+}
+
+.three {
+    background: white;
+    border-radius: 10px;
+    padding: 20px 0px 20px 20px;
+}
+
+/* ?this is footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.lein {
+    word-spacing: 8px;
+
+
+}
+
+.lein a {
+    text-decoration: none;
+    color: white;
+
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+    .header h2{
+        padding-bottom: 3%;
+    }
+
+    .navigation {
+        display: flex;
+
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .grid-1 {
+        /* display: grid; */
+        grid-template-columns: 1fr;
+
+    }
+
+    .boxes {
+        grid-template-columns: 1fr;
+    }
+
+    .section3 {
+        grid-template-columns: 1fr;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
